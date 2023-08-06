@@ -1,7 +1,7 @@
 
 
 const click=document.querySelector('.click-me');
-//so remember about  click on dom element> select the ele > right click on it ? break on > attribute modifiaction > it will open a debugger pointing to where its happening
+//so remember about  click on dom element> select the ele > right click on it ? break on > attribute modification > it will open a debugger pointing to where its happening
 click.addEventListener('click',()=>{
     console.log("added");
     click.classList.add('clicked');
